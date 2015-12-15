@@ -9,10 +9,5 @@ namespace Network_Flow_Application
     class Pump : Component
     {
         public double Capacity { get; set; }
-
-        public Pump(double capacity) : base()
-        {
-            Capacity = capacity;
-        }
     }
 }

@@ -12,5 +12,16 @@ namespace Network_Flow_Application
         public double CurrentFlow { get; set; }
         public Component Input { get; set; }
         public Component Output { get; set; }
+
+        ///<summary>
+        ///returns the current flow of the component or pipeline 
+        ///</summary>
+        ///<returns> current flow</returns>
+        public double DisplayFlow(Pipeline p){
+            return p.CurrentFlow;
+        }
+
+
+
     }
 }
